@@ -44,9 +44,82 @@ table {
 button {
   -webkit-appearance: none; }
 
+.card .card-content .card-title {
+  line-height: 1.1 !important; }
+
+.btn, .btn-large {
+  background-color: #CD1E50 !important;
+  font-family: Oxjam; }
+
+@font-face {
+  font-family: "Oxjam";
+  src: url(../assets/oxfam.ttf); }
+body {
+  font-family: Oxjam; }
+
+p, input, textarea, label {
+  font-family: Helvetica;
+  font-size: 18px !important;
+  line-height: 1.2; }
+
+nav {
+  background-color: #CD1E50 !important;
+  color: white;
+  height: 60px;
+  padding: 0 20px; }
+  @media (max-width: 992px) {
+    nav {
+      display: block; } }
+
+nav ul {
+  display: flex;
+  justify-content: space-around; }
+
+nav a {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-decoration: none; }
+
+nav p {
+  padding-bottom: 2px; }
+
 header {
-  background: linear-gradient(to right, black 50%, white 50%);
-  background-size: cover;
-  height: 100vh; }
+  align-items: center;
+  display: flex !important;
+  height: 95vh;
+  justify-content: center; }
+
+header img {
+  max-width: 100%; }
+
+section {
+  padding: 100px 0;
+  text-align: center; }
+
+section h2 {
+  margin-bottom: 50px; }
+
+#sponsors .logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px; }
+
+#sponsors img {
+  height: 200px;
+  padding: 20px; }
+
+#contact form {
+  font-family: Helvetica;
+  margin: 0 auto;
+  text-align: left; }
+
+footer {
+  align-items: center;
+  display: flex !important;
+  text-align: center;
+  margin: 0 !important;
+  min-height: 200px; }
 
 /*# sourceMappingURL=main.css.map */
