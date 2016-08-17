@@ -5,6 +5,7 @@
         <title>Oxjam Takeover Shoreditch</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
@@ -31,7 +32,7 @@
             </nav>
         </div>
         <header class="pink lighten-4">
-            <img class="logo" src="assets/logo1.png">
+            <img class="logo" src="assets/images/logo1.png">
         </header>
         <section id="about" class="pink lighten-3">
             <h2>Oxjam Shoreditch Takeover 2016</h2>
@@ -174,8 +175,12 @@
         <section id="sponsors" class="pink lighten-3">
             <h2>Sponsors</h2>
             <div class="logos">
-                <a href="http://www.oxfam.org.uk/"><img src="http://www.linkagebristol.org.uk/uploads/images/oxfam-logo(1).jpg"></a>
-                <a href="http://www.foundersandcoders.com/"><img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/502/s300/10428695-1543795389171592-3676978522965194480-n.png"></a>
+                <a href="http://www.oxfam.org.uk/"><img src="assets/images/oxfam.jpg"></a>
+                <a href="http://www.foundersandcoders.com/"><img src="assets/images/fac.png"></a>
+                <a href="http://ladydinahs.com/"><img src="assets/images/catemporium.jpg"></a>
+                <a href="http://mastbrothers.com/"><img src="assets/images/mast.jpg"></a>
+                <a href="https://religionclothing.com/"><img src="assets/images/religion.jpg"></a>
+                <a href="#"><img src="assets/images/hs.jpg"></a>
             </div>
             <a class="btn-large">Sponsor Oxjam</a>
         </section>
@@ -185,26 +190,16 @@
         </section>
         <section id="contact" class="pink lighten-5">
             <h2>Contact</h2>
-            <form class="container">
-                <div class="row">
-                    <div class="input-field col s6">
-                        <input id="first_name" type="text" class="validate">
-                        <label for="first_name">First Name</label>
-                    </div>
-                    <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">Last Name</label>
-                    </div>
-                </div>
+            <form class="container" action="https://formspree.io/elliottjohnbarton@gmail.com" method="POST">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="email" type="email" class="validate">
+                        <input name="email" id="email" type="email" class="validate">
                         <label for="email" required>Email Address</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <textarea id="textarea" class="materialize-textarea"></textarea>
+                        <textarea name="message" id="textarea" class="materialize-textarea"></textarea>
                         <label for="textarea">Your Message</label>
                     </div>
                 </div>

@@ -53,8 +53,9 @@ button {
 
 @font-face {
   font-family: "Oxjam";
-  src: url(../assets/oxfam.ttf); }
+  src: url(../assets/fonts/oxfam.ttf); }
 body {
+  color: #212121;
   font-family: Oxjam; }
 
 p, input, textarea, label {
@@ -107,7 +108,7 @@ section h2 {
   margin-bottom: 20px; }
 
 #sponsors img {
-  height: 200px;
+  height: 175px;
   padding: 20px; }
 
 #contact form {
