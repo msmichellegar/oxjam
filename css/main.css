@@ -49,7 +49,8 @@ button {
 
 .btn, .btn-large {
   background-color: #CD1E50 !important;
-  font-family: Oxjam; }
+  font-family: Oxjam;
+  margin-top: 40px; }
 
 @font-face {
   font-family: "Oxjam";
@@ -60,7 +61,7 @@ body {
 
 p, input, textarea, label {
   font-family: Helvetica;
-  font-size: 18px !important;
+  font-size: 20px !important;
   line-height: 1.2; }
 
 nav {
@@ -104,12 +105,11 @@ section h2 {
 #sponsors .logos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 20px; }
+  justify-content: center; }
 
 #sponsors img {
   height: 175px;
-  padding: 20px; }
+  padding: 20px 20px 0 20px; }
 
 #contact form {
   font-family: Helvetica;
