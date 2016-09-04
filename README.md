@@ -16,4 +16,4 @@ To make sure your SASS compiles, run SASS watch:
 
 `$ sass --watch css/sass/main.scss:css/main.css`
 
-The default branch for this repository has been set to `gh-pages`, so any changes should be either committed to this branch (if you are the project owner), or made as a pull request to `gh-pages` in another branch (if you would like to contribute).
+The default branch for this repository is `master`, so any changes should be either committed to this branch (if you are the project owner), or made as a pull request to `master` in another branch (if you would like to contribute).
