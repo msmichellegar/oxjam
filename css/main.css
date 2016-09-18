@@ -112,6 +112,21 @@ header img {
   height: 200px;
   max-width: 100%; }
 
+#events .event {
+  display: inline-block;
+  width: 400px; }
+
+#events .event a {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+#events img {
+  height: 500px;
+  margin: 15px; }
+  @media (max-width: 500px) {
+    #events img {
+      height: 400px; } }
+
 #about p {
   margin-bottom: 20px; }
 
@@ -122,9 +137,8 @@ section {
 section h2 {
   margin: 0 10px 50px 10px; }
 
-@media (max-width: 750px) {
-  .card .card-content .card-title {
-    font-size: 1.3rem; } }
+.card .card-content .card-title {
+  font-size: 1.3rem; }
 
 .card.small .card-image, .card.medium .card-image, .card.large .card-image {
   max-height: 70% !important; }
