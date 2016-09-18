@@ -41,6 +41,10 @@ nav .social-icons a {
     padding: 0;
 }
 
+nav .side-nav li {
+    float: none;
+}
+
 header {
     align-items: center;
     display: flex !important;
@@ -50,10 +54,16 @@ header {
 }
 
 header .content {
-    align-items: center;
-    display: flex !important;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
+}
+
+header h1, header h2 {
+
+    @media (max-width: 750px) {
+        font-size: 2rem;
+    }
+
+
 }
 
 header img {
@@ -73,6 +83,16 @@ section {
 
 section h2 {
     margin: 0 10px 50px 10px;
+}
+
+.card .card-content .card-title {
+    @media (max-width: 750px) {
+        font-size: 1.3rem;
+    }
+}
+
+.card.small .card-image, .card.medium .card-image, .card.large .card-image {
+    max-height: 70% !important;
 }
 
 #sponsors .logos {

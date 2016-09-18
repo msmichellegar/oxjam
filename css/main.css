@@ -90,18 +90,22 @@ nav .social-icons a {
   margin: 0 10px;
   padding: 0; }
 
+nav .side-nav li {
+  float: none; }
+
 header {
   align-items: center;
   display: flex !important;
   flex-direction: column;
-  height: 95vh;
+  min-height: 95vh;
   justify-content: center; }
 
 header .content {
-  align-items: center;
-  display: flex !important;
-  flex-direction: column;
-  justify-content: center; }
+  text-align: center; }
+
+@media (max-width: 750px) {
+  header h1, header h2 {
+    font-size: 2rem; } }
 
 header img {
   border-radius: 500px;
@@ -117,6 +121,13 @@ section {
 
 section h2 {
   margin: 0 10px 50px 10px; }
+
+@media (max-width: 750px) {
+  .card .card-content .card-title {
+    font-size: 1.3rem; } }
+
+.card.small .card-image, .card.medium .card-image, .card.large .card-image {
+  max-height: 70% !important; }
 
 #sponsors .logos {
   display: flex;
