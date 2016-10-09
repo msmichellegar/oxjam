@@ -74,12 +74,14 @@ header img {
 
 #events .event {
     display: inline-block;
-    width: 400px;
+    width: 100%;
+    text-align: center;
 }
 
-#events .event a {
-    margin-top: 15px;
-    margin-bottom: 15px;
+#events .btn-large {
+    width: 200px;
+    display: block;
+    margin: 15px auto;
 }
 
 #events img {
